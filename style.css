@@ -19,14 +19,18 @@ html {
 
 /* NAVIGATION */
 
-main{
+.main{
    position: relative;
+}
+
+nav {
+    position: sticky;
+    top: 40px;
+    right: 40px;
 }
 
 ul {
     list-style-type: none;
-    position: sticky;
-    display: inline;
     float: right;
     padding: 40px;
     
@@ -38,7 +42,6 @@ ul {
     font-size: 24px;
     font-weight: 600;
     border-radius: 50%;
-    position: sticky;
     padding: 15px;
     display: inline;
     
@@ -46,13 +49,13 @@ ul {
   }
   
   li a {
-    display: inline;
+
     text-align: center;
     text-decoration: none;
     color: black;
     z-index: 18;
     position: sticky;
-
+    padding: 15px;
   }
 
 
@@ -77,12 +80,18 @@ text-align: center;
     min-width: max-content;
     margin-left: 50vh;
     position: absolute;
+    display: ;
+
 }
 
 img {
     min-width: 100%;
     
     
+}
+
+img h1 {
+
 }
 
 .bred {
