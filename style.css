@@ -1,0 +1,129 @@
+html {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+/* NAVIGATION */
+
+main{
+   position: relative;
+}
+
+ul {
+    list-style-type: none;
+    position: sticky;
+    display: inline;
+    float: right;
+    padding: 40px;
+    
+  }
+  
+  li {
+    
+    background-color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 50%;
+    position: sticky;
+    padding: 15px;
+    display: inline;
+    
+
+  }
+  
+  li a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    z-index: 18;
+    position: sticky;
+
+  }
+
+
+/* SEZIONI */
+
+h1{
+text-align: center;
+
+
+}
+
+.sezione {
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.container {
+    width: 850px;
+    height: 750px;
+    min-width: max-content;
+    margin-left: 50vh;
+    position: absolute;
+}
+
+img {
+    min-width: 100%;
+    
+    
+}
+
+.bred {
+    background-color: #FF0000; 
+}
+
+.bgreen {
+    background-color: #008000;
+}
+
+.byellow {
+    background-color: #ffff00;
+}
+
+.yellow {
+    color: #ffff00;
+}
+
+.green {
+    color: #008000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug nav ul li {
+    border: 2px solid black;
+}
+
+.debug section {
+    border: 2px dashed black;
+}
+.debug .container{
+    border: 2px dashed black;
+}
