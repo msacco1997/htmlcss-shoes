@@ -123,8 +123,8 @@ img h1 {
 
 
 
-
-/* DEBUG */
+/* 
+ DEBUG 
 
 .debug nav ul li {
     border: 2px solid black;
@@ -135,4 +135,4 @@ img h1 {
 }
 .debug .container{
     border: 2px dashed black;
-}
+} */
